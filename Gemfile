@@ -53,3 +53,5 @@ gem 'angularjs-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'bootstrap-sass', '~> 3.1.1'
+
+ruby "2.3.0"
