@@ -2,6 +2,14 @@
 source 'https://rubygems.org'
 
 
+ group :production do
+  ruby '2.2.5'
+ end
+ 
+ group :development do
+   ruby '2.3.0'
+ end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
@@ -54,4 +62,3 @@ gem 'angularjs-rails'
 # gem 'debugger', group: [:development, :test]
 gem 'bootstrap-sass', '~> 3.1.1'
 
-ruby "2.3.0"
