@@ -2,13 +2,13 @@
 source 'https://rubygems.org'
 
 
- group :production do
+# group :production do
   ruby '2.2.5'
- end
+ #end
  
- group :development do
-   ruby '2.3.0'
- end
+# group :development do
+ #  ruby '2.3.0'
+ #end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
